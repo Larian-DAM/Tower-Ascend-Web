@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--DarkBlue);
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > div, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header > div {
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Gray);
+}
+
+header > div > a > img {
+    width: 70px;
+}
+
+header > ul {
+    list-style: none;
+    gap: 20px;
+}
+
+header > ul > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    border: 3px solid var(--Gray);
+    color: var(--Gray);
+    transition: 0.2s;
+}
+
+header > ul > li > a:hover {
+    color: var(--Blue);
+    background-color: var(--Gray);
+}

@@ -1,0 +1,37 @@
+/* Importar fuentes de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* 
+    font-family: "Roboto Mono", monospace;
+    font-family: "Micro 5", sans-serif;
+*/
+
+/* Importar fonts awesome */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: "Micro 5", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    font-weight: bold;
+}
