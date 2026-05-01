@@ -12,7 +12,7 @@
 
 #title-section > h1 {
     font-size: 70px;
-    color: var(--Gray);
+    color: var(--LightGray);
 }
 
 #download-section {
@@ -89,4 +89,82 @@
 #future-updates-section > article {
     border: 10px solid var(--LightGray);
     padding: 15px;
+}
+
+#download-links {
+    background: linear-gradient(to bottom, var(--DarkBlue), var(--Gray));
+    height: 85vh;
+}
+
+#download-links > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100%;
+}
+
+#download-links > ul > li {
+    color: var(--LightGray);
+    text-align: left;
+}
+
+#download-links > ul > li > div > a {
+    text-decoration: none;
+    background-color: var(--DarkBlue);
+    color: var(--LightGray);
+    padding: 5px;
+    transition: 0.2s;
+}
+
+#download-links > ul > li > div > a:hover {
+    background-color: var(--LightGray);
+    color: var(--DarkBlue);
+}
+
+#privacy, #terms {
+    background-color: var(--LightGray);
+    color: var(--DarkBlue);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#privacy > ul, #terms > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#ranking {
+    background-color: var(--LightGray);
+    color: var(--DarkBlue);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+#ranking > table {
+    background-color: var(--DarkBlue);
+    color: var(--LightGray);
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+}
+
+#ranking th, #ranking td {
+    padding: 12px 20px;
+    text-align: left; 
+}
+
+#ranking th:nth-child(1), #ranking td:nth-child(1) { width: 20%; }
+#ranking th:nth-child(2), #ranking td:nth-child(2) { width: 50%; }
+#ranking th:nth-child(3), #ranking td:nth-child(3) { width: 30%; text-align: right; }
+
+#ranking tbody tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }

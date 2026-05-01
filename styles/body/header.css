@@ -16,7 +16,7 @@ header > div {
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    color: var(--Gray);
+    color: var(--LightGray);
 }
 
 header > div > a > img {
@@ -32,12 +32,12 @@ header > ul > li > a {
     display: block;
     text-decoration: none;
     padding: 5px;
-    border: 3px solid var(--Gray);
-    color: var(--Gray);
+    border: 3px solid var(--LightGray);
+    color: var(--LightGray);
     transition: 0.2s;
 }
 
 header > ul > li > a:hover {
     color: var(--Blue);
-    background-color: var(--Gray);
+    background-color: var(--LightGray);
 }
