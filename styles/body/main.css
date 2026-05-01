@@ -111,6 +111,10 @@
     text-align: left;
 }
 
+#download-links > ul > li > h1 > i {
+    font-size: 30px;
+}
+
 #download-links > ul > li > div > a {
     text-decoration: none;
     background-color: var(--DarkBlue);
@@ -138,8 +142,8 @@
 }
 
 #ranking {
-    background-color: var(--LightGray);
-    color: var(--DarkBlue);
+    background: linear-gradient(to bottom, var(--DarkBlue), var(--Gray));
+    color: var(--LightGray);
     padding: 20px;
     display: flex;
     flex-direction: column;

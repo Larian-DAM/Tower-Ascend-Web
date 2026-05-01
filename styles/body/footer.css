@@ -1,11 +1,10 @@
 footer {
+    width: 100%;
     background-color: var(--DarkBlue);
     color: var(--LightGray);
-    font-size: 3px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
 }
 
 footer > div > div > a {
@@ -13,6 +12,7 @@ footer > div > div > a {
 }
 
 footer > div {
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;

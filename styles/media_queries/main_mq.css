@@ -1,0 +1,109 @@
+@media (max-width: 650px) {
+    #title-section > h1 {
+        font-size: 40px;
+        color: var(--LightGray);
+        text-align: center;
+        padding: 5px;
+    }
+
+    #download-section h1, #download-section h2 {
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #download-button {
+        font-size: 30px;
+    }
+    
+    #future-updates-section > h1 {
+        font-size: 30px;
+    }
+
+    #future-updates-section h2 {
+        font-size: 30px;
+    }
+
+    #future-updates-section {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    #future-updates-section > h1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #future-update-1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #future-update-2 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #future-update-3 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    #compatible-platforms > i {
+        font-size: 40px;
+    }
+
+    #compatible-platforms {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    #ranking {
+            padding: 5px;
+        }
+
+    #ranking > table {
+        font-size: 13px;
+    }
+
+    #ranking th, #ranking td {
+        padding: 6px 4px;
+    }
+
+    #ranking th:nth-child(1), #ranking td:nth-child(1) { 
+        width: 15%; 
+    }
+
+    #ranking th:nth-child(2), #ranking td:nth-child(2) { 
+        width: 50%; 
+    }
+
+    #ranking th:nth-child(3), #ranking td:nth-child(3) { 
+        width: 35%; 
+        letter-spacing: -0.5px;
+    }
+
+    #download-links > ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        height: 100%;
+    }
+
+    #download-links > ul > li > div > i {
+        display: none;
+    }
+
+    #download-links > ul > li > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        text-align: center;
+    }
+
+    
+
+}
