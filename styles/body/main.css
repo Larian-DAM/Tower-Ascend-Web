@@ -41,7 +41,7 @@
 
 #download-button:hover {
     transform:translateY(-10px);
-    box-shadow: 0px 10px 20px 1px black;
+    box-shadow: 0px 10px 30px -5px black;
 }
 
 #compatible-platforms {
@@ -63,6 +63,8 @@
     justify-content: center;
     gap: 50px;
     padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
@@ -131,6 +133,7 @@
 #privacy, #terms {
     background-color: var(--LightGray);
     color: var(--DarkBlue);
+    height: 85vh;
     padding: 10px;
     display: flex;
     flex-direction: column;

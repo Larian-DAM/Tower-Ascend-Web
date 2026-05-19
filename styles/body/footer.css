@@ -5,6 +5,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-top: 3px solid var(--Gray);
 }
 
 footer > div > div > a {
