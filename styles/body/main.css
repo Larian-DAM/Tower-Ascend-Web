@@ -133,7 +133,7 @@
 #privacy, #terms {
     background-color: var(--LightGray);
     color: var(--DarkBlue);
-    height: 85vh;
+    min-height: 800px;
     padding: 10px;
     display: flex;
     flex-direction: column;
