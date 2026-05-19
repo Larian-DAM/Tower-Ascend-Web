@@ -1,5 +1,6 @@
 footer {
     width: 100%;
+    max-width: 100%;
     background-color: var(--DarkBlue);
     color: var(--LightGray);
     display: flex;
@@ -9,6 +10,7 @@ footer {
     padding: 28px 20px;
     gap: 20px;
     align-items: center;
+    box-sizing: border-box;
 }
 
 footer > div > div > a {

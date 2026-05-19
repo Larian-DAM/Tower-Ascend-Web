@@ -14,16 +14,37 @@
     padding: 0;
     font-family: "Roboto Mono", monospace;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    scrollbar-gutter: stable;
 }
 
 html, body {
     height: 100%;
     background: var(--DarkPurple);
     color: var(--LightGray);
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background: var(--DarkPurple);
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgba(192,203,220,0.3);
+    border-radius: 5px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: rgba(192,203,220,0.5);
 }
 
 :root {

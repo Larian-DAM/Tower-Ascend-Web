@@ -88,8 +88,27 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 50px;
+        gap: 15px;
         height: 100%;
+        padding: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #download-links > ul > li {
+        width: calc(100% - 20px);
+        max-width: 400px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    #download-links > ul > li > h1 {
+        font-size: 16px;
+    }
+
+    #download-links > ul > li > div > a {
+        font-size: 13px;
+        padding: 8px 12px;
     }
 
     #download-links > ul > li > div > i {
@@ -100,8 +119,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: left;
+        align-items: center;
         text-align: center;
+        gap: 8px;
     }
 
     
