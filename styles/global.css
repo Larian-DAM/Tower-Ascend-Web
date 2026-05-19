@@ -16,6 +16,47 @@
     font-size: 16px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    background: var(--DarkPurple);
+    color: var(--LightGray);
+}
+
+:root {
+    --card-border: rgba(255,255,255,0.04);
+    --card-shadow: 0 12px 30px rgba(0,0,0,0.55);
+}
+
+.card, .panel {
+    border-radius: 10px;
+    border: 1px solid var(--card-border);
+    box-shadow: var(--card-shadow);
+    background-clip: padding-box;
+}
+
+a.button, .btn, button, input[type="button"], input[type="submit"], a[role="button"] {
+    background: linear-gradient(90deg, var(--LightGray), rgba(254,174,52,0.12));
+    color: var(--DarkBlue);
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.45);
+}
+
+button:hover, a.button:hover, .btn:hover, input[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.55);
+}
+
+/* Leave sections to be styled individually in body styles */
+
 h1, h2, h3 {
     font-family: "Micro 5", sans-serif;
 }
